@@ -1,43 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Dosis:wght@200&family=Rubik+Vinyl&family=Secular+One&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'italic',cursive ;
-}
 
-nav{
+  @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script:wght@700&display=swap');
+
+.navbar {
+    color: brown;
+    border: silver;
+    font-size: large;
+    position: fixed;
+    background-color: rgb(0, 255, 128);
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    height: 80px;
-    background-color:rgb(220, 110, 20);
-    padding: 5px 60px;
-}
-nav h2,i{
-    padding-top: 22px;
-}
-.heading{
-    text-align: center;
-    margin-top: 35px;
-    
-
-}
-.item{
-    width: 500px;
-    border:2px solid black;
-    margin:4px 4px;
-    text-align: center;
-}
-.item img{
-    position: relative;
-    left: 27px;
+    padding: 15px 0;
+    margin: 0;
 }
 
-section{
-    display: flex; 
+.navbar a {
+    margin-left: 20px;
+}
+
+.navbar i {
+    margin-right: 20px;
+}
+
+#shop-product{
+    color: rgb(255, 0, 179);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+*{
+    font-family: 'Bacasime Antique', serif;
+}
+
+.product-container-1 {
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 139px;
-    
+    margin: 100px;
 }
- 
+
+.product-1 {
+    margin: 10px;
+    border: 2px solid;
+    width: 17%;
+    height: 400px;
+}
+
+.product-1 img {
+    width: 100%;
+    height: 55%;
+}
+
+.product-1 span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.product-1 h2{
+    margin: 10px;
+}
+.product-1 button{
+    border-radius: 25%;
+    background-color: crimson;
+    color: white;
+    font-size: large;
+}
